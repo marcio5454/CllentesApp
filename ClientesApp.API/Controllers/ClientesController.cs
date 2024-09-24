@@ -34,7 +34,5 @@ namespace ClientesApp.API.Controllers
             return Ok();
         }
 
-
-
     }
 }

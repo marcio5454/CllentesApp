@@ -26,6 +26,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Itens de Solução", "Itens
 		docker-compose.yml = docker-compose.yml
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientesApp.Infra.Data.SqlServer.Tests", "ClientesApp.Infra.Data.SqlServer.Tests\ClientesApp.Infra.Data.SqlServer.Tests.csproj", "{70EBFEEB-F0D8-4A31-8944-C9FF64A7D300}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -52,6 +54,10 @@ Global
 		{BDEB5E21-6834-47C9-ACA0-161E07B46B58}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BDEB5E21-6834-47C9-ACA0-161E07B46B58}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BDEB5E21-6834-47C9-ACA0-161E07B46B58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70EBFEEB-F0D8-4A31-8944-C9FF64A7D300}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70EBFEEB-F0D8-4A31-8944-C9FF64A7D300}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70EBFEEB-F0D8-4A31-8944-C9FF64A7D300}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70EBFEEB-F0D8-4A31-8944-C9FF64A7D300}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -62,6 +68,7 @@ Global
 		{A4E867C6-E380-4D66-932B-395406D6FFF2} = {C69F8F80-D2D8-482A-B701-A1E53A66C58F}
 		{23F68632-DB0E-4966-B364-438DF295AC11} = {1F1DBDDF-34DD-46AD-9B44-CB44E4710886}
 		{BDEB5E21-6834-47C9-ACA0-161E07B46B58} = {1F1DBDDF-34DD-46AD-9B44-CB44E4710886}
+		{70EBFEEB-F0D8-4A31-8944-C9FF64A7D300} = {1F1DBDDF-34DD-46AD-9B44-CB44E4710886}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A9D2DDAC-E80F-4AB1-98A8-60E20E6D28AB}
